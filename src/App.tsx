@@ -1,7 +1,9 @@
+import React from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import MeetMyTeam from './components/MeetMyTeam'; // Ensure this import is correct
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio/Portfolio';
 import ScrollProgress from './components/ScrollProgress';
@@ -18,6 +20,7 @@ export default function App() {
         <About />
         <Services />
         <Portfolio />
+        <MeetMyTeam /> {/* Ensure this component is correctly used */}
         <Testimonials />
         <Contact />
       </main>
